@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body{
+            height: 2000px;
+        }
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        .head{
+            align-items: center;
+            margin-top: 30px;
+            display: flex;
+            font-size: 8px;
+            justify-content: space-around;
+
+        }
+        .right{
+            display: flex;
+            align-items: center;
+        }
+        nav{
+            
+            height: 50px;
+            background-color: darkblue;
+        }
+        .nav-bar{
+            display: flex;
+            color: white;
+            list-style: none;
+            justify-content: center;
+            gap: 20px;
+           
+            
+
+        }
+        .nav-bar li{
+            margin-top: 15px;
+        }
+        .nav-bar li:hover{
+            color: aqua;
+        }
+        .home{
+            height: 500px;
+            border: 1px solid black;
+            
+            background-size: contain;
+            animation: homeani 8s ;
+            animation-iteration-count: infinite;
+
+        }
+        
+        @keyframes homeani{
+            0%{
+                background-image: url('b1.jpg');
+            }
+            20%{
+                background-image: url('b2.jpg');
+            }
+            40%{
+                background-image: url('b3.jpg');
+            }
+            60%{
+                background-image: url('b4.jpg');
+            }
+            80%{
+                background-image: url('b2.jpg');
+            }
+            100%{
+                background-image: url('b1.jpg');
+            }
+            
+        }
+        .info{
+            margin-top: 50px;
+            width: 80%;
+            margin: auto;
+            border: 1px solid black;
+        }
+        .btn{
+            background-color: darkblue;
+            color: white;
+            padding:10px 30px;
+
+        }
+        .btn:hover{
+            background-color: darkred;
+            color:white;
+        }
+        .one{
+             margin-top: 50px;
+             width: 500px;
+             border: 1px solid darkblue;
+             box-shadow: 3px 3px 0.8px darkblue;
+             
+        }
+        .one p{
+            border-bottom: 1px dotted black;
+        }
+        .two{
+            margin-top: 40px;
+            width: 700px;
+
+
+        }
+         .first{
+            display: flex;
+            border: 1px dotted black;
+            gap: 50px;
+            margin-bottom: 30px;
+            box-shadow: 3px 3px 0.5 rgb(105, 105, 214);
+        }
+        .three{
+            height: 1200px;
+            width:250px;
+            position: absolute;
+            right: 300px;
+            top: 800px;
+        }
+        .footer{
+            height: 500px;
+            display: flex;
+            justify-content: space-around;
+            background-color: darkblue;
+            color: white;
+            align-items: center;
+            font-size: 20px;
+        }
+        .down{
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin-top: 50px;
+            margin-bottom: 50px;
+        }
+    </style>
+</head>
+<body>
+        <div class="head">
+            <div class="left">
+                <img src="NIELIT-Logo.png" alt="">
+            </div>
+            <div class="mid">
+                <h2>राष्ट्रीय इलेक्ट्रॉनिकी एवं सूचना प्रौद्योगिकी संस्थान ,हरिद्वार <br>
+
+                    National Institute of Electronics & Information Technology,Haridwar
+                    
+                   
+                    </h2>
+            </div>
+            <div class="right">
+                <h1>Ministry of Electronics & Information Technology
+                  <br>  Government of Indi</h1>
+                  <span><img src="Emblem_of_India1.png" alt=""></span>
+            </div>
+        </div>
+        <nav>
+            <ul class="nav-bar">
+                <li>Home
+                    
+                </li>
+                <li>About Us</li>
+                <li>Management</li>
+                <li>Service</li>
+                <li>MoU</li>
+                <li>Projects
+                    
+                </li>
+                <li>Training</li>
+                <li>News</li>
+                <li>Recruitment</li>
+                <li>Student Zone</li>
+                <li>Tender</li>
+                <li>Contact Us</li>
+            </ul>
+        </nav>
+        <div class="home">
+
+        </div>
+        
+        <div class="info">
+             <div class="one">
+                <button class="btn">Latest News</button>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt, rem?</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt, rem?</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt, rem?</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt, rem?</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt, rem?</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt, rem?</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt, rem?</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt, rem?</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt, rem?</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt, rem?</p>
+             </div>
+             <div class="two">
+                <button class="btn">About NIELIT</button>
+                <button class="btn">NEWS</button>
+                <button class="btn">What's New</button>
+                <div class="first">
+                    <img src="b2.jpg" width="100px" height="80px" alt="">
+                    
+                    <p>National Institute of Electronics and Information Technology, Haridwar <br> is located at 2nd floor, Government Polytechnic College,<br> Plot No. 6C, Sector-11, Near Pentagon <br> Mall in SIDCUL,Haridwar. Read More</p>
+                </div>
+                <div class="first">
+                    <img src="b2.jpg" width="100px" height="80px" alt="">
+                    
+                    <p>National Institute of Electronics and Information Technology, Haridwar <br> is located at 2nd floor, Government Polytechnic College,<br> Plot No. 6C, Sector-11, Near Pentagon <br> Mall in SIDCUL,Haridwar. Read More</p>
+                </div>
+                <div class="first">
+                    <img src="b3.jpg" width="100px" height="80px" alt="">
+                    
+                    <p>National Institute of Electronics and Information Technology, Haridwar <br> is located at 2nd floor, Government Polytechnic College,<br> Plot No. 6C, Sector-11, Near Pentagon <br> Mall in SIDCUL,Haridwar. Read More</p>
+                </div>
+                <div class="first">
+                    <img src="b4.jpg" width="100px" height="80px" alt="">
+                    
+                    <p>National Institute of Electronics and Information Technology, Haridwar <br> is located at 2nd floor, Government Polytechnic College,<br> Plot No. 6C, Sector-11, Near Pentagon <br> Mall in SIDCUL,Haridwar. Read More</p>
+                </div>
+             </div>
+             <div class="three">
+                <div class="first">
+                    <img src="b4.jpg" width="100px" height="80px" alt="">
+                    
+                    <p>National Institute of Electronics and Information Technology, Haridwar </p>
+                </div>
+                <div class="first">
+                    <img src="b4.jpg" width="100px" height="80px" alt="">
+                    
+                    <p>National Institute of Electronics and Information Technology, Haridwar </p>
+                </div>
+                <div class="first">
+                    <img src="b4.jpg" width="100px" height="80px" alt="">
+                    
+                    <p>National Institute of Electronics and Information Technology, Haridwar </p>
+                </div>
+                <div class="first">
+                    <img src="b4.jpg" width="100px" height="80px" alt="">
+                    
+                    <p>National Institute of Electronics and Information Technology, Haridwar </p>
+                </div>
+             </div>
+        </div>
+        <div class="down">
+            <div>
+                <img src="e1.jpg" alt="">
+            </div>
+            <div>
+                <img src="e2.jpg" alt="">
+            </div>
+            <div>
+                <img src="e3.jpg" alt="">
+            </div>
+            <div>
+                <img src="e4.jpg" alt="">
+            </div>
+            <div>
+                <img src="e5.jpg" alt="">
+            </div>
+        </div>
+        <div class="footer">
+            <div class="f1">Explore NIELIT <br> <br>
+                Act and Rules <br>
+                RTI <br>
+                Vigilance <br>
+                Grievance <br>
+                Email</div>
+            <div class="f1">
+                Website Policies <br> <br>
+COVID Compliance <br>
+Disclaimer <br>
+Sitemap <br>
+Privacy Policy <br>
+Citizen Charter <br>
+Website Policies <br>
+Terms and Conditions <br>
+Help
+            </div>
+            <div class="f1">
+                Useful Links <br> <br>
+meity.gov.in <br>
+india.gov.in <br>
+mygov.in <br>
+rtionline.gov.in <br>
+esdm-skill.deity.gov.in <br>
+Downloads
+            </div>
+            <div class="f1">Online Services <br><br>
+                Registration <br>
+                e-Certificate <br>
+                Accreditation <br>
+                CCC/BCC Facilitation <br>
+                Recruitments <br>
+                Examination</div>
+            <div class="f1"></div>
+        </div>
+</body>
+</html>
